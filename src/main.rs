@@ -1,10 +1,10 @@
-fn plus_ten(a: i32) -> i32 {
-    let s1 = String::from("hello");
-    let s2 = s1;
-    println!("{}", s1);
-    a
+fn main() {
+    let say_hello = "Hello";
+    let mut name = String::from("World");
+    pushing(&mut name);
+    println!("{} {}", say_hello, name);
 }
 
-fn main() {
-    println!("Angka: {}", plus_ten(10));
+fn pushing(a: &mut String) {
+    a.push_str("!!");
 }
