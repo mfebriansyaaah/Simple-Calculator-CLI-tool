@@ -19,6 +19,8 @@
     pkgs.pkg-config
     pkgs.git
     pkgs.gh
+    pkgs.hwinfo
+    pkgs.inxi
     # pkgs.nodePackages.nodemon
   ];
   # Sets environment variables in the workspace
@@ -29,6 +31,7 @@
       "RaillyHugo.one-hunter"
       "PKief.material-icon-theme"
       "rust-lang.rust-analyzer"
+      "yzhang.markdown-all-in-one"
       # "vscodevim.vim"
     ];
     # Enable previews
