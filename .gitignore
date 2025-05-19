@@ -1,1 +1,3 @@
-/target
+target/
+.idx/
+.vscode/
